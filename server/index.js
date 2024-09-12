@@ -3,6 +3,7 @@ import { PORT, mongoDBURL } from './config.js';
 import mongoose from 'mongoose';
 import routers from './routers/routers.js';
 import cors from 'cors';
+require('dotenv').config()
 
 
 const app = express();
